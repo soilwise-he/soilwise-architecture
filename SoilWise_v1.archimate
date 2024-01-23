@@ -58,7 +58,7 @@
       <element xsi:type="archimate:ApplicationInterface" name="Data provision to third parties" id="id-11d84a04a2624b61919966cd44e4a852"/>
       <element xsi:type="archimate:ApplicationComponent" name="Collaboration &amp; Networking" id="id-418f148280f34fdaa1480392d5420604"/>
       <element xsi:type="archimate:ApplicationComponent" name="Data upload" id="id-b1a6f1384a17410e92ace8cb3efb75b9"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Map" id="id-651d20721c63482688dc2d8086d43160"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Map viewer" id="id-651d20721c63482688dc2d8086d43160"/>
       <element xsi:type="archimate:ApplicationInterface" name="Data upload" id="id-8d7ada3b695d43fe8eb1a82d318a3ffa"/>
       <element xsi:type="archimate:ApplicationComponent" name="Sophisticated LLM" id="id-e5ff47f0e86d4e2f89859eb652ad607b"/>
       <element xsi:type="archimate:ApplicationInterface" name="Data &amp; Knowledge extraction" id="id-b1223741f1a740569f334058e0e887b9"/>
@@ -282,7 +282,7 @@
     <element xsi:type="archimate:AggregationRelationship" id="id-51e53cb2c8b04eecbfddab79e789004c" source="id-3c15d84f25e643dfb2f68aaf44eb1c27" target="id-12645b48a6b14eb1af8e050832fb89b0"/>
   </folder>
   <folder name="Views" id="id-2a80e3cdcf9548f0b4e0c7d6cebcae92" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Application Layer" id="id-4ba227d1a698481c9a2ffc80475d19b9">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Kick off meeting architecture" id="id-4ba227d1a698481c9a2ffc80475d19b9">
       <child xsi:type="archimate:DiagramObject" id="id-cb4d67f9e04842bc8b57f017cda43511" targetConnections="id-0a39695045d94de98f1197d25189257b" archimateElement="id-00ab4292d6964b18b2bf7c96b114aebc">
         <bounds x="565" y="716" width="432" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-59daf3fe0593451bac7aabf840451ea7" source="id-cb4d67f9e04842bc8b57f017cda43511" target="id-0b61acda88b24386bd5503a61c730bfb" archimateRelationship="id-f01eeac7cd614148b44a3e1dda3fa48b"/>
