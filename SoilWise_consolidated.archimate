@@ -127,6 +127,7 @@
 - linkage evaluation&#xD;
 - metadata quality evaluation&#xD;
 - data quality evaluation&#xD;
+- suggest improvements on metadata to users&#xD;
 &#xD;
 - connections to data source, catalogue, processing&#xD;
 - technologies used:&#xD;
@@ -275,7 +276,13 @@ SPARQL ENDPOINT&#xD;
 - responsible person:&#xD;
 - participating: Luís de Sousa</documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Extending metadata items" id="id-e6daadf317f74961a8c674a0db7d4cb5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Enhancing metadata items" id="id-e6daadf317f74961a8c674a0db7d4cb5">
+      <documentation>Powered by AI&#xD;
+&#xD;
+- finding citations and usage of data, methodologies&#xD;
+- provide data labelling&#xD;
+- enable user input??</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationComponent" name="Data &amp; Knowledge publication" id="id-296bed08fc4d484d86ed2b7ce63b7fbe">
       <documentation>- standardized&#xD;
 - format independent&#xD;
@@ -336,6 +343,7 @@ SPARQL ENDPOINT&#xD;
 - responsible person: Thorsten Reitz&#xD;
 - participating:</documentation>
     </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Link persistence validator" id="id-4dec15a3a7694c31948aaa201c058807"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-85266dd2e90a4a2695a857c734ccac21" type="technology"/>
   <folder name="Motivation" id="id-b60e6a2f2ecf452ba3cd0c0a117be7c3" type="motivation"/>
@@ -439,6 +447,7 @@ SPARQL ENDPOINT&#xD;
     <element xsi:type="archimate:TriggeringRelationship" id="id-7c77f52031934c88a9d45552d3ae8d57" source="id-1d7e95d763d840e8aa69fce82253f77b" target="id-cdd40afa3b0d4571a3907a743305c821"/>
     <element xsi:type="archimate:FlowRelationship" id="id-810d06f4807f474ca9d78c55e22379d9" source="id-b0d711f8e6f045a3a8af4219d9c1864b" target="id-b0d711f8e6f045a3a8af4219d9c1864b"/>
     <element xsi:type="archimate:FlowRelationship" id="id-c4b7e19ba5e7457cb4dde649587d2f69" source="id-b0d711f8e6f045a3a8af4219d9c1864b" target="id-1a3bcca6d4144fa9b2092d7f941a1396"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-823be067a5f143928e68eb29f3eea547" source="id-413f095b025141fd9c00c16667bd1fd4" target="id-4dec15a3a7694c31948aaa201c058807"/>
   </folder>
   <folder name="Views" id="id-d5c07833d04e4a8596923e0230819484" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Consolidated architecture" id="id-e3ae52bba4fb42dfa0b3900e7d37bdab">
@@ -520,10 +529,14 @@ SPARQL ENDPOINT&#xD;
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f8b08d27ebba41e591392789444c62e9" targetConnections="id-ddc67775b337479f92602af805e2287d" archimateElement="id-413f095b025141fd9c00c16667bd1fd4">
-          <bounds x="13" y="29" width="144" height="120"/>
+          <bounds x="13" y="29" width="144" height="192"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-972dd16fcef842009403468b88a03911" source="id-f8b08d27ebba41e591392789444c62e9" target="id-c279ed1155944e5fbca23e6d40bb1c57" archimateRelationship="id-9b4a768dbf2840e7adae5be9de29903b"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2ad6abda3845433c91a5ce9567ebbbe9" source="id-f8b08d27ebba41e591392789444c62e9" target="id-22d9c5e191bc4ef39f8526be16c17c4b" archimateRelationship="id-823be067a5f143928e68eb29f3eea547"/>
           <child xsi:type="archimate:DiagramObject" id="id-c279ed1155944e5fbca23e6d40bb1c57" targetConnections="id-972dd16fcef842009403468b88a03911" archimateElement="id-cea8b78c1aca493b9736e30ce6029fe8">
             <bounds x="12" y="48" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-22d9c5e191bc4ef39f8526be16c17c4b" targetConnections="id-2ad6abda3845433c91a5ce9567ebbbe9" fontColor="#ff0000" archimateElement="id-4dec15a3a7694c31948aaa201c058807">
+            <bounds x="12" y="120" width="120" height="55"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d10f0c7fb80449078b42b08609bcc559" targetConnections="id-60c4110078e34a69a404a4bf156fdab8" archimateElement="id-41ec4a0067d34d438f69dbebecaf1305">
@@ -533,7 +546,7 @@ SPARQL ENDPOINT&#xD;
           <bounds x="481" y="95" width="144" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-b0a0326c94bf45faa83e407e4021c40b" targetConnections="id-ab379512ce8e42d5a614a58cfcc300c0" archimateElement="id-6ab515b0ee8b498f915fe2bfcd6b2982">
-          <bounds x="13" y="167" width="144" height="55"/>
+          <bounds x="325" y="167" width="144" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3ee2146fc5084e4a8268d93928612869" targetConnections="id-e08d86490ab5475c8ef5edc40ebbf935" archimateElement="id-a9ac822cf1564b85859f5a61d4e10783">
           <bounds x="170" y="167" width="144" height="55"/>
