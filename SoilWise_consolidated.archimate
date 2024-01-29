@@ -148,7 +148,9 @@
 - participating: Luís de Sousa, Anna Fensel, We Transform, Nick Berkvens, Giovanni L'Abate</documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Certification &amp; governance management" id="id-cdd40afa3b0d4571a3907a743305c821"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Sophisticated LLM" id="id-1215332fa5a74e06bd16b1cfff8df28c"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Sophisticated LLM" id="id-1215332fa5a74e06bd16b1cfff8df28c">
+      <documentation>This model will be trained on the knowledge graph. It aims to provide an easy to use and personified interaction mechanism with the knowledge harnessed at the SWR. It is the main pillar supporting the Chatbot component of the user interface.</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationComponent" name="High-value knowledge identification" id="id-ad45884361f54710805ff84a628db39c"/>
     <element xsi:type="archimate:ApplicationComponent" name="Alignment with existing data" id="id-ac47e745c1d24fc1a72fb3589e7be56b"/>
     <element xsi:type="archimate:ApplicationComponent" name="AI, ML" id="id-d98ad8fc7f164ca18c8043e42b46ca45"/>
@@ -190,9 +192,13 @@
 - responsible person:&#xD;
 - participating:</documentation>
     </element>
-    <element xsi:type="archimate:ApplicationInterface" name="Chatbot" id="id-f246d4bfabdf4f69adc3ab98fe682dcd"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Chatbot" id="id-f246d4bfabdf4f69adc3ab98fe682dcd">
+      <documentation>A personified and easy to use interface to the knowledge gathered by the SWR. Based on the LLM component.</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationInterface" name="Knowledge extraction API" id="id-0e2164daa555496b81d163b4fad5f56d">
-      <documentation>- API to search and harvest graph&#xD;
+      <documentation>An API providing machine-based access to the SWR knowledge graph. This API is most likely to conform to an existing meta-data standard, such as the OGC API Records. However, its responses are RDF documents, for instance encoded with JSON-LD syntax. Other components of the SWR performing knowledge extraction and/or augmentation may also use this API to interact with the knowledge graph.
+
+- API to search and harvest graph&#xD;
 - graph maintenance&#xD;
 - UI to search / harvest graph&#xD;
 &#xD;
@@ -267,7 +273,11 @@ SPARQL ENDPOINT&#xD;
     </element>
     <element xsi:type="archimate:ApplicationInterface" name="Sensor measurements APIs (OGC SOS, Sensor Things API)" id="id-640276b1266f479aa6fd0ac44a54c608"/>
     <element xsi:type="archimate:ApplicationComponent" name="Knowledge graph" id="id-dabf0c62a94740f09238d77be4e01a41">
-      <documentation>- metadata storage&#xD;
+      <documentation>The knowledge graph is meant to add a formal semantics layer to the meta-data collected at the SWR. It mirrors the XML-based meta-data harnessed in the Catalogue Server, but using Semantic Web standards such as DCAT, Dublin Core, VCard or PROV. This meta-data is augmented with links to domain web ontologies, in particular GloSIS. This semantically augmented meta-data is the main pilar of knowledge extraction activities and components.
+
+The Large Language Model foreseen in this project will be trained on this knowledge graph, thus forming the basis for the Chatbot component of the user interface. The knowledge graph will further feed the facilites for machine-based access to the SWR: a knowledge extration API and a SPARQL end-point.
+
+- metadata storage&#xD;
 - metadata linking&#xD;
 - semantic consistency&#xD;
 &#xD;
