@@ -534,7 +534,6 @@ The Large Language Model foreseen in this project will be trained on this knowle
         <sourceConnection xsi:type="archimate:Connection" id="id-ab379512ce8e42d5a614a58cfcc300c0" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-b0a0326c94bf45faa83e407e4021c40b" archimateRelationship="id-7ab0d10b7f3445edbff2226393743e4e"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e08d86490ab5475c8ef5edc40ebbf935" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-3ee2146fc5084e4a8268d93928612869" archimateRelationship="id-c8663bb8683b4c6ebe6dc0ad9fa9171b"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-dbe088469cef416bb38a0a112e73a8d8" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-3e4c5ae8524949cb993f4e1bfca455c2" archimateRelationship="id-1813fb529d0c46d592f7a4c96a054aa5"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-dc4a78f395a4449791fdd37193103770" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-ab71781b94d84aa5a4f8a0867464e5bd" archimateRelationship="id-aaa33c83fa0e4b4b95525c990ab6b57a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e07c0df4f5ab40c4bad7c1396639e53f" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-1a7450be30da41c1bc52741617febf7e" archimateRelationship="id-c0d5cea1320a4e188c63d6f061a15a64"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8a44bb8dd29b4c31bb766f0e758265c1" source="id-9841b1e9eb0441d6a4f91e42dcb99434" target="id-2126b4e66afe482fb17fad033e59b366" archimateRelationship="id-a0f120603b064f4ea9bcbaf7107f72b6"/>
         <child xsi:type="archimate:DiagramObject" id="id-2275794fccf94f63b02c08c1ba0b017e" archimateElement="id-b4c74bc3fe034c1db143fb051ea62ea3">
@@ -574,9 +573,6 @@ The Large Language Model foreseen in this project will be trained on this knowle
           <child xsi:type="archimate:DiagramObject" id="id-9eadae2a081e41749e5b615d81daa409" targetConnections="id-61b0a09fc339499494d3de545e498283" archimateElement="id-4ea703e0ab4d41af97c724da5234811d">
             <bounds x="12" y="48" width="120" height="55"/>
           </child>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="id-ab71781b94d84aa5a4f8a0867464e5bd" targetConnections="id-dc4a78f395a4449791fdd37193103770" archimateElement="id-df4e6590c56d4fc0afeffc13c14ef0ab">
-          <bounds x="481" y="168" width="144" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-1a7450be30da41c1bc52741617febf7e" targetConnections="id-e07c0df4f5ab40c4bad7c1396639e53f" archimateElement="id-b0d711f8e6f045a3a8af4219d9c1864b">
@@ -722,7 +718,7 @@ The Large Language Model foreseen in this project will be trained on this knowle
           <bounds x="96" y="35" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-d1727324f6f14fa9a6717bd435b221b1" targetConnections="id-93278d1e3b1b40e7bc3cc13ac8174519 id-392a4218c0444f45b07f8f81b0e66d45" archimateElement="id-d1781083f6fa48858cabd34911750d7c">
-          <bounds x="372" y="108" width="120" height="55"/>
+          <bounds x="348" y="108" width="144" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8be88ae034014383b862b40530c30361" targetConnections="id-29ad412d5c4c4f2298be6569d765e541 id-1b645ba1118e41578c278937bad076f8 id-45a5e14c600f4baeb8032ca55f72ceaa" archimateElement="id-f246d4bfabdf4f69adc3ab98fe682dcd">
           <bounds x="504" y="108" width="120" height="54"/>
