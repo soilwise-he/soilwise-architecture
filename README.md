@@ -1,6 +1,9 @@
 # soilwise-architecture
 A repository to co create the SoilWise HE architecture
 
+## Live preview
+A live read-only version is available at: https://soilwise-he.github.io/soilwise-architecture/
+
 ## Software
 
 To view or edit the Archimate model you may use the following programmes:
