@@ -147,7 +147,27 @@
 - responsible person: Rob Lokers&#xD;
 - participating: Luís de Sousa, Anna Fensel, We Transform, Nick Berkvens, Giovanni L'Abate</documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Certification &amp; governance management" id="id-cdd40afa3b0d4571a3907a743305c821"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Certification &amp; governance management" id="id-cdd40afa3b0d4571a3907a743305c821">
+      <documentation>- governance&#xD;
+- interoperability&#xD;
+- clearing house, broker, ...&#xD;
+- vocabulary provider (connects to knowledge graph)&#xD;
+&#xD;
+- connections with: external repo, identity providers, connectors, UI/UX&#xD;
+- technologies used:&#xD;
+- responsible person:&#xD;
+- participating:&#xD;
+&#xD;
+CONNECTOR:&#xD;
+- config and control of data access&#xD;
+- config and control of data usage&#xD;
+- user authorisation for data access&#xD;
+&#xD;
+- connections with: Storage, APIs&#xD;
+- technologies used: Eclipse Dataspace Components Connector&#xD;
+- responsible person: Thorsten Reitz&#xD;
+- participating:</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationComponent" name="Sophisticated LLM" id="id-1215332fa5a74e06bd16b1cfff8df28c">
       <documentation>This model will be trained on the knowledge graph. It aims to provide an easy to use and personified interaction mechanism with the knowledge harnessed at the SWR. It is the main pillar supporting the Chatbot component of the user interface.</documentation>
     </element>
@@ -792,25 +812,6 @@ The Large Language Model foreseen in this project will be trained on this knowle
         <bounds x="252" y="780" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-849b5073ebc14d24947edc49b627d216" source="id-b0c8b1af5a7048df8c10a1d07eda053d" target="id-dba42e73d544422a84dc7e4670786cd8" archimateRelationship="id-54e4371361a641029e91343e7f7d189b"/>
       </child>
-      <documentation>- governance&#xD;
-- interoperability&#xD;
-- clearing house, broker, ...&#xD;
-- vocabulary provider (connects to knowledge graph)&#xD;
-&#xD;
-- connections with: external repo, identity providers, connectors, UI/UX&#xD;
-- technologies used:&#xD;
-- responsible person:&#xD;
-- participating:&#xD;
-&#xD;
-CONNECTOR:&#xD;
-- config and control of data access&#xD;
-- config and control of data usage&#xD;
-- user authorisation for data access&#xD;
-&#xD;
-- connections with: Storage, APIs&#xD;
-- technologies used: Eclipse Dataspace Components Connector&#xD;
-- responsible person: Thorsten Reitz&#xD;
-- participating:</documentation>
     </element>
   </folder>
 </archimate:model>
