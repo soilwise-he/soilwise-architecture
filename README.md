@@ -12,3 +12,5 @@ To view or edit the Archimate model you may use the following programmes:
 
 - [Visual Paradigm](https://www.visual-paradigm.com/): commercial, cross platform.
 
+## Release notes
+v0.1 - contains Kick-off and User Stories derived architectures
