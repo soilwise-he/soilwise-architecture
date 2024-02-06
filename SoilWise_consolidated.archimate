@@ -374,6 +374,18 @@ The Large Language Model foreseen in this project will be trained on this knowle
 - participating:</documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Link persistence validator" id="id-4dec15a3a7694c31948aaa201c058807"/>
+    <element xsi:type="archimate:ApplicationInterface" name="SPARQL end-point" id="id-350a095dc8be4b8b9f4e8ffa4b94297d">
+      <documentation>This is the primary access point to the knowledge graph, both for humans, as for machines. However8
+
+SPARQL ENDPOINT
+- development aid
+- technical query interface behind APIs
+
+- connections with: APIs
+- technologies used: It is provided by the same technology hosting the meta-data catalogue.
+- responsible person: should be the same of the Catalogue.
+- participating: Luís de Sousa</documentation>
+    </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-85266dd2e90a4a2695a857c734ccac21" type="technology"/>
   <folder name="Motivation" id="id-b60e6a2f2ecf452ba3cd0c0a117be7c3" type="motivation"/>
@@ -484,6 +496,8 @@ The Large Language Model foreseen in this project will be trained on this knowle
     <element xsi:type="archimate:TriggeringRelationship" id="id-af973b331aa748c98019491ae88cf3ac" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-1215332fa5a74e06bd16b1cfff8df28c"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-96430f6ebb364578bae1956a9493eb22" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-ad45884361f54710805ff84a628db39c"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-6d395bccefa34952a50721e29a25240a" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-1215332fa5a74e06bd16b1cfff8df28c"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-edd27cfcae724118a55db9581da1a88e" source="id-296bed08fc4d484d86ed2b7ce63b7fbe" target="id-350a095dc8be4b8b9f4e8ffa4b94297d"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-517da7ba7d6d4ecd8fecd322a90fe897" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-350a095dc8be4b8b9f4e8ffa4b94297d"/>
   </folder>
   <folder name="Views" id="id-d5c07833d04e4a8596923e0230819484" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Consolidated architecture" id="id-e3ae52bba4fb42dfa0b3900e7d37bdab">
@@ -673,8 +687,9 @@ The Large Language Model foreseen in this project will be trained on this knowle
         <sourceConnection xsi:type="archimate:Connection" id="id-7b8fe4e118464cc7bd83aa59d2d5e747" source="id-32ff500317dc475dbc1553ac91d78727" target="id-00ec33fbfa4740c5b479947105a8d6d4" archimateRelationship="id-428e4dbe1bb64e1492cca6635cfb1e68"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e87cae2766c24f509714e7db192e81a8" source="id-32ff500317dc475dbc1553ac91d78727" target="id-b40a0000d05d44108f7027e51460657c" archimateRelationship="id-6a5104265b0844eaa03f1fef8b85c5c6"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-31b643488c75428fab354b056a984422" source="id-32ff500317dc475dbc1553ac91d78727" target="id-607488d2d1a34c50ae4f460c7464ad40" archimateRelationship="id-4c38424f46874848a198d5020f49d145"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a12098ba2221472682bad5c1972d7634" source="id-32ff500317dc475dbc1553ac91d78727" target="id-fc046d42e0fc4de0b1aa78905a1fdd2e" archimateRelationship="id-edd27cfcae724118a55db9581da1a88e"/>
         <child xsi:type="archimate:DiagramObject" id="id-8ec5c4e9b85741f582007015c643cbae" targetConnections="id-01b04286c29e455d9bcf8e79c1fe506c" archimateElement="id-0e2164daa555496b81d163b4fad5f56d">
-          <bounds x="480" y="24" width="120" height="120"/>
+          <bounds x="467" y="24" width="120" height="61"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-72641acd74f9454990c75354a889d68e" archimateElement="id-a92bd8b6ef8c4a90b2f21ea0cf972079">
           <bounds x="12" y="192" width="144" height="61"/>
@@ -707,7 +722,10 @@ The Large Language Model foreseen in this project will be trained on this knowle
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9c4449ef08644c1c8140e6f84e8b5fa1" targetConnections="id-0e48a5824d11445b80f4fc0e3876ced4" archimateElement="id-dabf0c62a94740f09238d77be4e01a41">
           <bounds x="480" y="192" width="144" height="61"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-01b04286c29e455d9bcf8e79c1fe506c" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-8ec5c4e9b85741f582007015c643cbae" archimateRelationship="id-f77c4046fa20423d9460f9539c01f132"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-01b04286c29e455d9bcf8e79c1fe506c" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-8ec5c4e9b85741f582007015c643cbae" archimateRelationship="id-f77c4046fa20423d9460f9539c01f132">
+            <bendpoint startX="-84" startY="-42" endX="-59" endY="126"/>
+            <bendpoint startX="-84" startY="-90" endX="-59" endY="78"/>
+          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-1b645ba1118e41578c278937bad076f8" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-8be88ae034014383b862b40530c30361" archimateRelationship="id-22a1b251253a47b3a48d35a038483e13">
             <bendpoint startX="60" startY="-138" endX="48" endY="130"/>
           </sourceConnection>
@@ -719,6 +737,10 @@ The Large Language Model foreseen in this project will be trained on this knowle
             <bendpoint startX="96" startY="-6" endX="-114" endY="81"/>
             <bendpoint startX="132" startY="-78" endX="-78" endY="9"/>
           </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-3668c19c0625420ebe05f60df56c5add" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-fc046d42e0fc4de0b1aa78905a1fdd2e" archimateRelationship="id-517da7ba7d6d4ecd8fecd322a90fe897"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-fc046d42e0fc4de0b1aa78905a1fdd2e" targetConnections="id-a12098ba2221472682bad5c1972d7634 id-3668c19c0625420ebe05f60df56c5add" archimateElement="id-350a095dc8be4b8b9f4e8ffa4b94297d">
+          <bounds x="480" y="108" width="120" height="49"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-607488d2d1a34c50ae4f460c7464ad40" targetConnections="id-935125a70f714af68e9294d7b61730c8 id-31b643488c75428fab354b056a984422" archimateElement="id-5f5c9659b5114fce9927b0fe1be34d05">
