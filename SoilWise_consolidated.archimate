@@ -87,7 +87,8 @@
 - responsible person:</documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Persistent Identifier Mint" id="id-413f095b025141fd9c00c16667bd1fd4">
-      <documentation>- consistent identification&#xD;
+      <documentation>
+- consistent identification&#xD;
 - findability&#xD;
 - versioning / derivates linking&#xD;
 &#xD;
