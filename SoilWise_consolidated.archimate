@@ -375,7 +375,7 @@ The Large Language Model foreseen in this project will be trained on this knowle
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Link persistence validator" id="id-4dec15a3a7694c31948aaa201c058807"/>
     <element xsi:type="archimate:ApplicationInterface" name="SPARQL end-point" id="id-350a095dc8be4b8b9f4e8ffa4b94297d">
-      <documentation>This is the primary access point to the knowledge graph, both for humans, as for machines. However8
+      <documentation>This is the primary access point to the knowledge graph, both for humans, as well as for machines. Many applications and end users will instead interact with specialised assets that use the SPARQL end-point, such as the Chatbot or the API. However, the SPARQL end-point is the main source for the development of further knowledge applications and provides bespoke search to humans.
 
 SPARQL ENDPOINT
 - development aid
@@ -451,8 +451,8 @@ SPARQL ENDPOINT
     <element xsi:type="archimate:ServingRelationship" id="id-3c56d8f6201a4e828086dfa0fe22918e" source="id-c2806981557343baa092390841dd9ea8" target="id-640276b1266f479aa6fd0ac44a54c608"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-0c4ac6bc74d04dd0ad18f3bd12215117" source="id-0c18819dc9fd4368ae379e4c1dffcaaa" target="id-dabf0c62a94740f09238d77be4e01a41"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-4d761d5ca0364f63b29e9bf2a1286ed1" source="id-b0d711f8e6f045a3a8af4219d9c1864b" target="id-dabf0c62a94740f09238d77be4e01a41"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-22a1b251253a47b3a48d35a038483e13" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-f246d4bfabdf4f69adc3ab98fe682dcd"/>
-    <element xsi:type="archimate:ServingRelationship" id="id-f77c4046fa20423d9460f9539c01f132" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-0e2164daa555496b81d163b4fad5f56d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-22a1b251253a47b3a48d35a038483e13" source="id-350a095dc8be4b8b9f4e8ffa4b94297d" target="id-f246d4bfabdf4f69adc3ab98fe682dcd"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-f77c4046fa20423d9460f9539c01f132" source="id-350a095dc8be4b8b9f4e8ffa4b94297d" target="id-0e2164daa555496b81d163b4fad5f56d"/>
     <element xsi:type="archimate:FlowRelationship" id="id-6a5104265b0844eaa03f1fef8b85c5c6" source="id-296bed08fc4d484d86ed2b7ce63b7fbe" target="id-da76d11b93124d6e893de6fa18e8fe3c"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-2cacb8dd007b4b4db553320e14181687" source="id-1d7e95d763d840e8aa69fce82253f77b" target="id-5f5c9659b5114fce9927b0fe1be34d05"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-38227607ceb14ff7b7b6359e943d8e7a" source="id-1d7e95d763d840e8aa69fce82253f77b" target="id-da76d11b93124d6e893de6fa18e8fe3c"/>
@@ -498,6 +498,7 @@ SPARQL ENDPOINT
     <element xsi:type="archimate:TriggeringRelationship" id="id-6d395bccefa34952a50721e29a25240a" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-1215332fa5a74e06bd16b1cfff8df28c"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-edd27cfcae724118a55db9581da1a88e" source="id-296bed08fc4d484d86ed2b7ce63b7fbe" target="id-350a095dc8be4b8b9f4e8ffa4b94297d"/>
     <element xsi:type="archimate:TriggeringRelationship" id="id-517da7ba7d6d4ecd8fecd322a90fe897" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-350a095dc8be4b8b9f4e8ffa4b94297d"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-9085458f58f941a5a23ef65183fda173" source="id-dabf0c62a94740f09238d77be4e01a41" target="id-350a095dc8be4b8b9f4e8ffa4b94297d"/>
   </folder>
   <folder name="Views" id="id-d5c07833d04e4a8596923e0230819484" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Consolidated architecture" id="id-e3ae52bba4fb42dfa0b3900e7d37bdab">
@@ -689,7 +690,7 @@ SPARQL ENDPOINT
         <sourceConnection xsi:type="archimate:Connection" id="id-31b643488c75428fab354b056a984422" source="id-32ff500317dc475dbc1553ac91d78727" target="id-607488d2d1a34c50ae4f460c7464ad40" archimateRelationship="id-4c38424f46874848a198d5020f49d145"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a12098ba2221472682bad5c1972d7634" source="id-32ff500317dc475dbc1553ac91d78727" target="id-fc046d42e0fc4de0b1aa78905a1fdd2e" archimateRelationship="id-edd27cfcae724118a55db9581da1a88e"/>
         <child xsi:type="archimate:DiagramObject" id="id-8ec5c4e9b85741f582007015c643cbae" targetConnections="id-01b04286c29e455d9bcf8e79c1fe506c" archimateElement="id-0e2164daa555496b81d163b4fad5f56d">
-          <bounds x="467" y="24" width="120" height="61"/>
+          <bounds x="480" y="24" width="120" height="61"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-72641acd74f9454990c75354a889d68e" archimateElement="id-a92bd8b6ef8c4a90b2f21ea0cf972079">
           <bounds x="12" y="192" width="144" height="61"/>
@@ -722,13 +723,6 @@ SPARQL ENDPOINT
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9c4449ef08644c1c8140e6f84e8b5fa1" targetConnections="id-0e48a5824d11445b80f4fc0e3876ced4" archimateElement="id-dabf0c62a94740f09238d77be4e01a41">
           <bounds x="480" y="192" width="144" height="61"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-01b04286c29e455d9bcf8e79c1fe506c" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-8ec5c4e9b85741f582007015c643cbae" archimateRelationship="id-f77c4046fa20423d9460f9539c01f132">
-            <bendpoint startX="-84" startY="-42" endX="-59" endY="126"/>
-            <bendpoint startX="-84" startY="-90" endX="-59" endY="78"/>
-          </sourceConnection>
-          <sourceConnection xsi:type="archimate:Connection" id="id-1b645ba1118e41578c278937bad076f8" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-8be88ae034014383b862b40530c30361" archimateRelationship="id-22a1b251253a47b3a48d35a038483e13">
-            <bendpoint startX="60" startY="-138" endX="48" endY="130"/>
-          </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-fbaa15e0d18a42cbb232c143022dd0a8" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-eda477d87ac6487696b9f53486049dc4" archimateRelationship="id-96430f6ebb364578bae1956a9493eb22">
             <bendpoint startX="108" startY="18" endX="-102" endY="41"/>
             <bendpoint startX="132" startY="-30" endX="-78" endY="-7"/>
@@ -737,10 +731,16 @@ SPARQL ENDPOINT
             <bendpoint startX="96" startY="-6" endX="-114" endY="81"/>
             <bendpoint startX="132" startY="-78" endX="-78" endY="9"/>
           </sourceConnection>
-          <sourceConnection xsi:type="archimate:Connection" id="id-3668c19c0625420ebe05f60df56c5add" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-fc046d42e0fc4de0b1aa78905a1fdd2e" archimateRelationship="id-517da7ba7d6d4ecd8fecd322a90fe897"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-a11de316cc90449883b4586d368fd6d8" source="id-9c4449ef08644c1c8140e6f84e8b5fa1" target="id-fc046d42e0fc4de0b1aa78905a1fdd2e" archimateRelationship="id-9085458f58f941a5a23ef65183fda173"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-fc046d42e0fc4de0b1aa78905a1fdd2e" targetConnections="id-a12098ba2221472682bad5c1972d7634 id-3668c19c0625420ebe05f60df56c5add" archimateElement="id-350a095dc8be4b8b9f4e8ffa4b94297d">
+        <child xsi:type="archimate:DiagramObject" id="id-fc046d42e0fc4de0b1aa78905a1fdd2e" targetConnections="id-a12098ba2221472682bad5c1972d7634 id-a11de316cc90449883b4586d368fd6d8" archimateElement="id-350a095dc8be4b8b9f4e8ffa4b94297d">
           <bounds x="480" y="108" width="120" height="49"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-01b04286c29e455d9bcf8e79c1fe506c" source="id-fc046d42e0fc4de0b1aa78905a1fdd2e" target="id-8ec5c4e9b85741f582007015c643cbae" archimateRelationship="id-f77c4046fa20423d9460f9539c01f132">
+            <bendpoint startY="-48" endY="42"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-1b645ba1118e41578c278937bad076f8" source="id-fc046d42e0fc4de0b1aa78905a1fdd2e" target="id-8be88ae034014383b862b40530c30361" archimateRelationship="id-22a1b251253a47b3a48d35a038483e13">
+            <bendpoint startX="72" endX="48" endY="201"/>
+          </sourceConnection>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-607488d2d1a34c50ae4f460c7464ad40" targetConnections="id-935125a70f714af68e9294d7b61730c8 id-31b643488c75428fab354b056a984422" archimateElement="id-5f5c9659b5114fce9927b0fe1be34d05">
@@ -762,7 +762,7 @@ SPARQL ENDPOINT
         <child xsi:type="archimate:DiagramObject" id="id-d1727324f6f14fa9a6717bd435b221b1" targetConnections="id-93278d1e3b1b40e7bc3cc13ac8174519 id-392a4218c0444f45b07f8f81b0e66d45" archimateElement="id-d1781083f6fa48858cabd34911750d7c">
           <bounds x="348" y="108" width="144" height="55"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-8be88ae034014383b862b40530c30361" targetConnections="id-29ad412d5c4c4f2298be6569d765e541 id-1b645ba1118e41578c278937bad076f8 id-45a5e14c600f4baeb8032ca55f72ceaa" archimateElement="id-f246d4bfabdf4f69adc3ab98fe682dcd">
+        <child xsi:type="archimate:DiagramObject" id="id-8be88ae034014383b862b40530c30361" targetConnections="id-29ad412d5c4c4f2298be6569d765e541 id-45a5e14c600f4baeb8032ca55f72ceaa id-1b645ba1118e41578c278937bad076f8" archimateElement="id-f246d4bfabdf4f69adc3ab98fe682dcd">
           <bounds x="504" y="108" width="120" height="54"/>
         </child>
       </child>
