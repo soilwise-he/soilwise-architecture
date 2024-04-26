@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="SoilWise_consolidated" id="id-85903050004a40d8964c6edc97e82d57" version="5.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="SoilWise_architecture" id="id-85903050004a40d8964c6edc97e82d57" version="5.0.0">
   <folder name="Strategy" id="id-99de3dc2ed0843b39bdd1dea06ae47f1" type="strategy"/>
   <folder name="Business" id="id-4912ada48bc04b5ba1b87a3cfe4ef936" type="business">
     <element xsi:type="archimate:BusinessActor" name="SWR User" id="id-402563f35c464cc2a21fdf47dab0bb34"/>
