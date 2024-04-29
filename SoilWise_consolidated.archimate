@@ -410,7 +410,7 @@
             <bounds x="12" y="108" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-bc6f38d3f57e44bbb862123f3a3f2784" targetConnections="id-96d52ee1e24a4cb7a413480deb798b7d" archimateElement="id-a5804a5b650b4939a33ed2baa55c3af7">
-            <bounds x="144" y="96" width="120" height="55"/>
+            <bounds x="144" y="108" width="120" height="55"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-8496af1d866e4edf869445891330a100" targetConnections="id-a11a8195a8814c8dbf896752a4e9f6f5 id-d8cf5407f10948ab929a209a4409d9fb" archimateElement="id-a9cf757619cf4e5b88a6f18218fcbc58">
