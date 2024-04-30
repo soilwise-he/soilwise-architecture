@@ -18,5 +18,5 @@ To view or edit the Archimate model you may use the following programmes:
 
 ## Release notes
 
-**v0.1** - contains Kick-off and User Stories derived architectures
-**v1.0** - contains a version for D1.3 Architecture Repository purposes
+- **v0.1:** contains Kick-off and User Stories derived architectures
+- **v1.0:** contains a version for D1.3 Architecture Repository purposes
