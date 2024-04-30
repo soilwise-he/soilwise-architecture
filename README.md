@@ -2,7 +2,11 @@
 A repository to co create the SoilWise HE architecture
 
 ## Live preview
-A live read-only version is available at: https://soilwise-he.github.io/soilwise-architecture/
+
+A fixed production version (for delivery) is published at: https://soilwise-architecture.pages.dev/
+
+A living preview version is published at: https://gh-pages.soilwise-architecture.pages.dev/
+
 
 ## Software
 
