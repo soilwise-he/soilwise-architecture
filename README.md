@@ -3,9 +3,10 @@ A repository to co create the SoilWise HE architecture
 
 ## Live preview
 
-A fixed production version (for delivery) is published at: https://soilwise-architecture.pages.dev/
+A **living preview** version is published at: https://gh-pages.soilwise-architecture.pages.dev/
 
-A living preview version is published at: https://gh-pages.soilwise-architecture.pages.dev/
+A fixed production version (for delivery) is published at: https://soilwise-architecture.pages.dev/
+A fixed **1st prototype version** (for delivery) is published at: https://prototype-1-0.soilwise-architecture.pages.dev/
 
 
 ## Software
