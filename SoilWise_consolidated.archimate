@@ -142,7 +142,7 @@
   <folder name="Implementation &amp; Migration" id="id-9a7d90b8cf9a4d84a84c1f4d03b66903" type="implementation_migration"/>
   <folder name="Other" id="id-62f7754ddf694587be4bfa6aeb416da5" type="other">
     <element xsi:type="archimate:Grouping" name="Data &amp; Knowledge providers" id="id-358e47da3f2544448615aa966c3de7e3"/>
-    <element xsi:type="archimate:Grouping" name="SWR Repository" id="id-ae59b63428724634878d728bde69fac0"/>
+    <element xsi:type="archimate:Grouping" name="SoilWise Repository" id="id-ae59b63428724634878d728bde69fac0"/>
     <element xsi:type="archimate:Grouping" name="SoilWise Catalogue (copy)" id="id-c2be92fbf5c1413b8bd55f4ad0ab5a34"/>
     <element xsi:type="archimate:Grouping" name="SWR Storage" id="id-d9eb254096b541119c54250e58b540f6"/>
     <element xsi:type="archimate:Grouping" name="UI" id="id-71462ba9274548c992f67f11be0b8565"/>
@@ -945,7 +945,7 @@
           <child xsi:type="archimate:DiagramObject" id="id-2b27aba3e46446b1ba32e0b9c989e2a5" targetConnections="id-abd6bc12763345baa06d3bd93b9e79aa" archimateElement="id-052be6e07f294baaa680d14994a42ea8">
             <bounds x="12" y="96" width="120" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-e81f876353b54cf6b799ead39e0a9295" targetConnections="id-c0ee4784cf5448f5910f42ac2d709ec3" archimateElement="id-4d2bc50001b343bab4d3c34f9d980333">
+          <child xsi:type="archimate:DiagramObject" id="id-e81f876353b54cf6b799ead39e0a9295" targetConnections="id-c0ee4784cf5448f5910f42ac2d709ec3" alpha="80" archimateElement="id-4d2bc50001b343bab4d3c34f9d980333">
             <bounds x="12" y="168" width="120" height="55"/>
           </child>
         </child>
@@ -1615,7 +1615,7 @@
           <child xsi:type="archimate:DiagramObject" id="id-fbf5165560094ed58ab79a8333709f75" targetConnections="id-442b4231ec614760a98d8335141812ec" archimateElement="id-052be6e07f294baaa680d14994a42ea8">
             <bounds x="12" y="96" width="120" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-8979e05541fd4d4f8e74ab52c48d8116" targetConnections="id-2cc14ea1bb8d4a279a458a2b7a6c5fc3" archimateElement="id-4d2bc50001b343bab4d3c34f9d980333">
+          <child xsi:type="archimate:DiagramObject" id="id-8979e05541fd4d4f8e74ab52c48d8116" targetConnections="id-2cc14ea1bb8d4a279a458a2b7a6c5fc3" alpha="80" archimateElement="id-4d2bc50001b343bab4d3c34f9d980333">
             <bounds x="12" y="168" width="120" height="55"/>
           </child>
         </child>
