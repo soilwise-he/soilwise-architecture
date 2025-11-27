@@ -717,10 +717,6 @@
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-20e1882903f94a35a57c9a242c6fdd8d" targetConnections="id-61ec9e18b5ef49f0aeb0182a70b7c15b id-00c830358cab4e0b94605f71d302e838" alpha="80" archimateElement="id-ddf0049133ee439e94a711a114a722c3">
             <bounds x="972" y="30" width="96" height="37"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-b086c947da36483cb62974e9a0ad1061" source="id-20e1882903f94a35a57c9a242c6fdd8d" target="id-3f38782ecd0b4cc8addaea6fd24ac1d7" archimateRelationship="id-59d74b6e1c88447db40a2771e02e52da">
-              <bendpoint startY="-42" endX="438" endY="122"/>
-              <bendpoint startX="-420" startY="-42" endX="18" endY="122"/>
-            </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-e3a57ca1b15e482b8e0e6ccd17db41ec" targetConnections="id-b539b351252b48e9a57936d13073e0eb id-c1d9846a83c746499b0e393707aee2db" archimateElement="id-27bc59b3c7eb46e7b026f65c48553f26">
             <bounds x="108" y="30" width="73" height="37"/>
@@ -1265,7 +1261,7 @@
             <bounds x="12" y="24" width="108" height="55"/>
           </child>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-3f38782ecd0b4cc8addaea6fd24ac1d7" targetConnections="id-f273dcf19f4a46b4943f779e8a278d01 id-6d6610e265c94955a60aafb841e17ba9 id-b086c947da36483cb62974e9a0ad1061 id-9294d35ce30c46f796002c2578d47701" archimateElement="id-390d027142084ceab3d8a7c4a21cc91e">
+        <child xsi:type="archimate:DiagramObject" id="id-3f38782ecd0b4cc8addaea6fd24ac1d7" targetConnections="id-f273dcf19f4a46b4943f779e8a278d01 id-6d6610e265c94955a60aafb841e17ba9 id-9294d35ce30c46f796002c2578d47701" archimateElement="id-390d027142084ceab3d8a7c4a21cc91e">
           <bounds x="1152" y="32" width="84" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a4fc6a49c891458db5b813d4be472578" targetConnections="id-8c7b96e3ec264816b07a3288b1f74523 id-91f4610d4bca4a27b8e3e417186ea7b6 id-46893070ed5340edb8fc44312b417aae id-53a31d1f5b744e679f6a1719fc146fcb" archimateElement="id-df58478966174108b4cdfa04262097cb">
