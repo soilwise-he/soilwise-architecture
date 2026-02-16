@@ -91,7 +91,9 @@
     <element xsi:type="archimate:ApplicationFunction" name="Display record detail" id="id-4e9daa1c3246450fa8c7d82f5653658f"/>
     <element xsi:type="archimate:ApplicationComponent" name="User Engagement" id="id-c785c6491f124b43b2d4c18ae9d07d99"/>
     <element xsi:type="archimate:ApplicationFunction" name="Display md validation report" id="id-57e13832cda945deb6cf6a0b841ba5fd"/>
-    <element xsi:type="archimate:ApplicationFunction" name="Harvest metadata resources" id="id-fa567e06e7a94191b9f114b1e1cc9e67"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Harvest metadata resources" id="id-fa567e06e7a94191b9f114b1e1cc9e67">
+      <documentation>https://github.com/soilwise-he/md-harmonization</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationFunction" name="Harvest knowledge resources" id="id-ac90b2cc8b6b43c3ad99259e519c1083"/>
     <element xsi:type="archimate:ApplicationFunction" name="Multiple source resolution" id="id-a2aa188a8e634aaa8eb88513256c98e6"/>
     <element xsi:type="archimate:ApplicationFunction" name="Aug. md to RDF transformation" id="id-d908cc74ee5449cfa2c46e34ba27501d"/>
@@ -116,7 +118,9 @@
     <element xsi:type="archimate:ApplicationComponent" name="Link liveliness assessment" id="id-b1dd1f5d395f40ef91573f8fbeea4fa8">
       <documentation>https://github.com/soilwise-he/link-liveliness-assessment</documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Translation module" id="id-782964945454497499849e190d1056dd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Translation module" id="id-782964945454497499849e190d1056dd">
+      <documentation>https://github.com/soilwise-he/soilwise-util</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationInterface" name="RDF to Triple Store API" id="id-68c8350a710f4ea3907312a82d9ea8d4"/>
     <element xsi:type="archimate:ApplicationComponent" name="Data &amp; Knowledge Admin Console" id="id-efca0c250a6e43d08285d3a863a87f84">
       <documentation>https://github.com/soilwise-he/summary-dashboard</documentation>
@@ -158,7 +162,9 @@
     </element>
     <element xsi:type="archimate:ApplicationService" name="Grobid" id="id-9af2dc24b21842aa8cc3eb5d730b0c65"/>
     <element xsi:type="archimate:ApplicationInterface" name="Grobid REST API" id="id-7b866bc337f94c28ba6a6a85732ad9fc"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Soil Mission news feed harvester" id="id-82f76b34a917471e87dcbb836efc6aa9"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Soil Mission news feed harvester" id="id-82f76b34a917471e87dcbb836efc6aa9">
+      <documentation>https://github.com/soilwise-he/soilwise-util</documentation>
+    </element>
     <element xsi:type="archimate:ApplicationComponent" name="Authentication &amp; Authorisation" id="id-dfcc2e1e4b4f4ca598990d44fc1f9117"/>
     <element xsi:type="archimate:ApplicationInterface" name="Processing APIs" id="id-62d37903ec0e40f19620ce6fb5fa8804"/>
     <element xsi:type="archimate:ApplicationFunction" name="Display SWC content statistics" id="id-feec8a064f7c4fae9b0123d3a2ed3ec5"/>
