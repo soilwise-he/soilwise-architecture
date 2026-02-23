@@ -11,6 +11,8 @@ A fixed **1st prototype version** (for delivery) is published at: https://protot
 
 A fixed **2nd prototype version** (for delivery) is published at: https://prototype-2-0.soilwise-architecture.pages.dev/
 
+A fixes **3rd prototype version** (for delivery) is published at: https://prototype-3-0.soilwise-architecture.pages.dev/
+
 ## Software
 
 To view or edit the Archimate model you may use the following programmes:
