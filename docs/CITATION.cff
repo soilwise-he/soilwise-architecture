@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SoilWise Architecture"
+authors:
+  - family-names: "Snopková"
+    given-names: "Dajana"
+    email: "dajana.snopkova@muni.cz"
+    affiliation: "Masaryk University"
+    orcid: "https://orcid.org/0000-0002-0568-6211"
+repository-code: "https://github.com/soilwise-he/soilwise-architecture/"
+url: "https://soilwise-he.eu"
+abstract: >-
+  This repository contains the architectural design of the SoilWise Catalogue, which supports the access to various soil data and knowledge sources. The architecture is designed to document the system and facilitate the integration of various components and interfaces.
+keywords:
+  - architecture
+  - components
+  - interfaces
+license: CC-BY-4.0
+version: "3.0.0"
+date-released: "2026-04-13"
+identifiers:
+  - type: doi
+    value: ""
+    description: "DOI for the software (to be assigned)"
+  - type: other
+    value: "101112838"
+    description: "EU Horizon grant agreement number"
+references:
+  - type: grant
+    title: "SoilWise — Enabling Soil Data and Knowledge for Informed Decision-Making"
+    authors:
+      - name: "European Commission"
+    number: "101112838"
+    institution:
+      name: "European Union"
+    url: "https://doi.org/10.3030/101112838"
