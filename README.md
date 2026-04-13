@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/732925537.svg)](https://doi.org/10.5281/zenodo.19554432)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19554433.svg)](https://doi.org/10.5281/zenodo.19554433)
 
 # soilwise-architecture
 A repository to co create the SoilWise HE architecture
